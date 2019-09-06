@@ -1,0 +1,114 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/ush-logo.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/4ea0c5f6-736e-4ae2-b34f-9ca13488b28c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4ea0c5f6-736e-4ae2-b34f-9ca13488b28c">
+    <embedded-action>524c6a67-6586-4944-8a5f-904bfd8b8096</embedded-action>
+    <embedded-action>b1aceee8-16ca-4366-937e-fa10689f5b84</embedded-action>
+    <embedded-action>8f5e2b69-6ca9-4f64-b752-18384109e0f5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_90bdf8dc-534b-48b9-89fa-d7a3950e2ec5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;fe-5418707372c40-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:21 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/directives/ush-logo.html"
+    path="/templates/common/directives/ush-logo.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/4ea0c5f6-736e-4ae2-b34f-9ca13488b28c.zip"
+    recordedResponseCode="200" responseSize="254"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="524c6a67-6586-4944-8a5f-904bfd8b8096" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_341aaac3-2a39-4d43-836c-b98afa100668.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_341aaac3-2a39-4d43-836c-b98afa100668.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:28:53 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:21 GMT&#xd;
+ETag: "fe-5418707372c40-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Keep-Alive: timeout=5, max=97&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/features"
+    path="/platform/api/v3/config/features" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/4ea0c5f6-736e-4ae2-b34f-9ca13488b28c.zip"
+    recordedResponseCode="200" responseSize="734"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="b1aceee8-16ca-4366-937e-fa10689f5b84" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_62a1664e-dbce-4fd9-9609-a412f69d2d34</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_62a1664e-dbce-4fd9-9609-a412f69d2d34.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Authorization" value="Bearer 0SrRzGdktpFxravpAJvJNmtwM5TWMvqfyEnG6U9F"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:28:53 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 734&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" eTag="&quot;acf8-5418708f1ad80&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/fonts/LatoLatin-Heavy.woff2"
+    path="/fonts/Lato/fonts/LatoLatin-Heavy.woff2" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/4ea0c5f6-736e-4ae2-b34f-9ca13488b28c.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="52.90.15.176"
+    slaProfileEnabled="false" uid="8f5e2b69-6ca9-4f64-b752-18384109e0f5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8f5e2b69-6ca9-4f64-b752-18384109e0f5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0ed1182a-2fa6-49ec-8aa3-fcd687326d84.txt</requestContentFileDescription>
+    <header name="Accept" value="application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="identity"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/fonts/Lato/css/fonts.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:28:53 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "acf8-5418708f1ad80"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 44280&#xd;
+Keep-Alive: timeout=5, max=93&#xd;
+Connection: Keep-Alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

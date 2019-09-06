@@ -1,0 +1,114 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/detail/post-value.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/632e6ecf-8ef1-4445-b4a3-37c56ccadf80.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="632e6ecf-8ef1-4445-b4a3-37c56ccadf80">
+    <embedded-action>832d3b77-184f-45e5-9caa-deafd392ae20</embedded-action>
+    <embedded-action>bc3b119a-eca6-44f7-808c-2a9aaadd68fa</embedded-action>
+    <embedded-action>5e7f0c63-3d51-4605-87f0-41c8b38e35ab</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_59672a99-17dd-48d3-980a-d4f176bb5cf4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;27d-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/detail/post-value.html"
+    path="/templates/main/posts/detail/post-value.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/632e6ecf-8ef1-4445-b4a3-37c56ccadf80.zip"
+    recordedResponseCode="200" responseSize="637"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="832d3b77-184f-45e5-9caa-deafd392ae20" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d2201536-c409-4c07-9ed8-1d0d1c2d0b14.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d2201536-c409-4c07-9ed8-1d0d1c2d0b14.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/posts/199"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:29:57 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "27d-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;fc1-5418706fa2340&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/marker-icon-2x.png"
+    path="/img/marker-icon-2x.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/632e6ecf-8ef1-4445-b4a3-37c56ccadf80.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="52.90.15.176"
+    slaProfileEnabled="false" uid="bc3b119a-eca6-44f7-808c-2a9aaadd68fa" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bc3b119a-eca6-44f7-808c-2a9aaadd68fa.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_74a0e8cf-3d88-4889-9ef5-4e2246f4c877.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/posts/199"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:29:58 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "fc1-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4033&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;31d-5418706fa2340&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/marker-shadow.png"
+    path="/img/marker-shadow.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/632e6ecf-8ef1-4445-b4a3-37c56ccadf80.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="52.90.15.176"
+    slaProfileEnabled="false" uid="5e7f0c63-3d51-4605-87f0-41c8b38e35ab" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5e7f0c63-3d51-4605-87f0-41c8b38e35ab.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5f2d626f-4fa8-470b-a712-3c626a21460f.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/posts/199"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:29:58 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "31d-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 797&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

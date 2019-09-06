@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/api/v3/config" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/2bfb60ec-0bee-4425-b3c8-58f435c54f1a.zip"
+    slaProfileEnabled="false" thinkTime="584"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2bfb60ec-0bee-4425-b3c8-58f435c54f1a">
+    <embedded-action>24426a81-d90f-482a-af19-75dd46a6526e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a7aa03db-b3bf-46d9-8023-05007bfb74c8.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config"
+    path="/platform/api/v3/config" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/2bfb60ec-0bee-4425-b3c8-58f435c54f1a.zip"
+    recordedResponseCode="200" responseSize="2365"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="24426a81-d90f-482a-af19-75dd46a6526e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_134e4a5b-8b9f-4b78-987c-d528fabfc000</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_134e4a5b-8b9f-4b78-987c-d528fabfc000.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:28:49 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 2365&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

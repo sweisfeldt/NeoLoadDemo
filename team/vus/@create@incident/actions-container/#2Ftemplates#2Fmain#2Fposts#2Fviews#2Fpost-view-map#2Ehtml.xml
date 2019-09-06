@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/views/post-view-map.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/6423e1af-0fb5-4540-b9ce-50649c10e76d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6423e1af-0fb5-4540-b9ce-50649c10e76d">
+    <embedded-action>24727eac-9e4a-4e62-a4ad-0a2bdb3e2c59</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_02a1be04-83e3-4f2d-aba2-a368efaf77b5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;9a-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/views/post-view-map.html"
+    path="/templates/main/posts/views/post-view-map.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/6423e1af-0fb5-4540-b9ce-50649c10e76d.zip"
+    recordedResponseCode="200" responseSize="154"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="24727eac-9e4a-4e62-a4ad-0a2bdb3e2c59" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1b3299ce-95a1-4c45-bef5-62db81f1a7b6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1b3299ce-95a1-4c45-bef5-62db81f1a7b6.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:28:53 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "9a-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

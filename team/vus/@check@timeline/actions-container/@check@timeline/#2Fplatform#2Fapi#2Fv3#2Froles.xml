@@ -1,0 +1,176 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/api/v3/roles" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
+    slaProfileEnabled="false" thinkTime="13451"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e07bba6c-90f4-4855-9639-cd015d4e8b7b">
+    <embedded-action>8437f24c-1586-4717-aeb2-0c8df65cfb53</embedded-action>
+    <embedded-action>f7af0063-c058-45ed-a0d6-1b04d77a005a</embedded-action>
+    <embedded-action>6c466dc9-5bd9-4d90-975c-726f9cfd77f6</embedded-action>
+    <embedded-action>cb888435-e6d3-45e0-a152-f967f212b242</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_b8451a7d-2432-45cf-b808-45690e52976e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/roles"
+    path="/platform/api/v3/roles" postType="2"
+    recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
+    recordedResponseCode="200" responseSize="1118"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="8437f24c-1586-4717-aeb2-0c8df65cfb53" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f3f09215-b4be-4245-a731-96c1f71cf8c3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f3f09215-b4be-4245-a731-96c1f71cf8c3.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Authorization" value="Bearer KssYYjlQU6x3kQA12yYLZ1BWHl9Ld4irsVber9On"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/list"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:35:37 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 1118&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/stats"
+    path="/platform/api/v3/posts/stats" postType="2"
+    recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
+    recordedResponseCode="200" responseSize="499"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="f7af0063-c058-45ed-a0d6-1b04d77a005a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_79cf6ac7-4826-4a1a-8aec-16379d193680</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_79cf6ac7-4826-4a1a-8aec-16379d193680.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="group_by"
+        recordRawValue="form" separator="=" value="form" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status"
+        recordRawValue="all" separator="=" value="all" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Authorization" value="Bearer KssYYjlQU6x3kQA12yYLZ1BWHl9Ld4irsVber9On"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/list"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:35:37 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 499&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/savedsearches"
+    path="/platform/api/v3/savedsearches" postType="2"
+    recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
+    recordedResponseCode="200" responseSize="394"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="6c466dc9-5bd9-4d90-975c-726f9cfd77f6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e6058e7d-b130-47af-b403-e04dc832018d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e6058e7d-b130-47af-b403-e04dc832018d.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Authorization" value="Bearer KssYYjlQU6x3kQA12yYLZ1BWHl9Ld4irsVber9On"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/list"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:35:37 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 394&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts"
+    path="/platform/api/v3/posts" postType="2"
+    recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
+    recordedResponseCode="200" responseSize="17018"
+    serverUid="52.90.15.176" slaProfileEnabled="false"
+    uid="cb888435-e6d3-45e0-a152-f967f212b242" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_31d4d8ad-68cb-4a7b-b564-80e0b5c17164</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_31d4d8ad-68cb-4a7b-b564-80e0b5c17164.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="form[]"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="form[]"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="limit"
+        recordRawValue="10" separator="=" value="10" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="offset"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status[]"
+        recordRawValue="published" separator="=" value="published" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status[]"
+        recordRawValue="draft" separator="=" value="draft" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Authorization" value="Bearer KssYYjlQU6x3kQA12yYLZ1BWHl9Ld4irsVber9On"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="52.90.15.176"/>
+    <header name="Referer" value="http://52.90.15.176/views/list"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Sep 2019 01:35:37 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

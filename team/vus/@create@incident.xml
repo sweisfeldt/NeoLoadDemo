@@ -1,0 +1,57 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="CreateIncident">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="6c03a381-0334-4447-9ba4-cd598495ce89"/>
+        <weighted-embedded-action uid="2bfb60ec-0bee-4425-b3c8-58f435c54f1a"/>
+        <weighted-embedded-action uid="8bbf9821-a75f-4356-acac-6daac4586b3c"/>
+        <weighted-embedded-action uid="c28347cc-f9a2-43d8-a312-c7355c0ed152"/>
+        <weighted-embedded-action uid="5c9963c5-7fb1-458e-b903-3f98d42237c2"/>
+        <weighted-embedded-action uid="b7117ebb-e3d6-4385-8235-2df1030be0c0"/>
+        <weighted-embedded-action uid="9824114d-b9cb-449a-9bca-0d10fc5e4a9e"/>
+        <weighted-embedded-action uid="d30b6d99-c61d-4957-abcc-ea09b1951b55"/>
+        <weighted-embedded-action uid="1590637d-e474-406c-870f-6fab76d94865"/>
+        <weighted-embedded-action uid="b6885612-22f8-4d4d-bac8-789d4d0be2ab"/>
+        <weighted-embedded-action uid="e9643cfb-fa6c-4e58-a1fb-81257fcfc00d"/>
+        <weighted-embedded-action uid="1f5a5f50-bc12-49c2-b37b-48ff77dd4497"/>
+        <weighted-embedded-action uid="4ea0c5f6-736e-4ae2-b34f-9ca13488b28c"/>
+        <weighted-embedded-action uid="036a8a11-5d26-4709-8b53-b88e755ce164"/>
+        <weighted-embedded-action uid="3f381b5d-e00f-43a2-b1c8-9e96b7f525c8"/>
+        <weighted-embedded-action uid="6423e1af-0fb5-4540-b9ce-50649c10e76d"/>
+        <weighted-embedded-action uid="364243ea-68a8-40c3-9f61-577cbdcdcdb8"/>
+        <weighted-embedded-action uid="26d3af62-f270-4104-81c9-df01f2c143fb"/>
+        <weighted-embedded-action uid="1feb7a88-5488-4134-8cfc-630d9f13d550"/>
+        <weighted-embedded-action uid="bf6734c8-c421-4e40-9f8e-a564259ace24"/>
+        <weighted-embedded-action uid="1f3f566f-48d7-4e17-a98e-8120e33a8036"/>
+        <weighted-embedded-action uid="444c44d7-ff85-4217-8bcf-59a1ce16855e"/>
+        <weighted-embedded-action uid="152675e7-e43b-49a4-b63e-9113fdd23752"/>
+        <weighted-embedded-action uid="e1456a37-2e7d-4aed-92f2-e7071d0f8807"/>
+        <weighted-embedded-action uid="33a0e91a-badc-4e98-a78b-c8b2f7eae9f6"/>
+        <weighted-embedded-action uid="2a7243a0-fb66-40b8-8ed8-133828fbb54f"/>
+        <weighted-embedded-action uid="e09a4465-5f9f-4778-ab0b-bc85bedcfb80"/>
+        <weighted-embedded-action uid="d755eb41-6334-46a8-9007-484ed96fe848"/>
+        <weighted-embedded-action uid="b10fc037-a93a-4095-a725-f1ad66efe81f"/>
+        <weighted-embedded-action uid="856c534d-2dbf-40b8-bccc-ddaf61b57842"/>
+        <weighted-embedded-action uid="1f6b9bf2-e137-4705-8f3f-e5ea6a2d11bd"/>
+        <weighted-embedded-action uid="e112778a-1af7-4325-83bd-2e1cdba7f11a"/>
+        <weighted-embedded-action uid="447e8bba-cacf-4f83-aebc-e49f187616b2"/>
+        <weighted-embedded-action uid="17c1aeb7-3c5e-4a3c-a1d4-624e761cc10f"/>
+        <weighted-embedded-action uid="696aa541-bb3e-4043-9c7d-4caf0f2da345"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

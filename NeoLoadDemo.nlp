@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=NeoLoadDemo
+project.version=6.6
+project.original.version=6.6
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.0.0
+project.id=fea750d2-d9ad-47d1-a065-f86e70681209
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/sweisfeldt/NeoLoadDemo
