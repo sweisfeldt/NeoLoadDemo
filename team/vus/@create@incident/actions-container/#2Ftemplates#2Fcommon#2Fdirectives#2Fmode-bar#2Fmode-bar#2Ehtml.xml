@@ -79,5 +79,5 @@ Keep-Alive: timeout=5, max=100&#xd;
 Connection: Keep-Alive&#xd;
 Content-Type: application/json</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${secretToken}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
 </http-action>

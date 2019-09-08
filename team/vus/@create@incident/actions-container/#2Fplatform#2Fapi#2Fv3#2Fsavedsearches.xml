@@ -10,9 +10,9 @@
     <screenshotFileDescription>recorded-screenshots/sc_3476cc3c-36c9-47d4-8bfc-884f13e9ad0f.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/platform/api/v3/savedsearches"
     path="/platform/api/v3/savedsearches" postType="2"

@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/platform/api/v3/posts" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/ad68cf3b-b48d-467d-adbe-96816b363d5d.zip"
     slaProfileEnabled="false" thinkTime="13990"

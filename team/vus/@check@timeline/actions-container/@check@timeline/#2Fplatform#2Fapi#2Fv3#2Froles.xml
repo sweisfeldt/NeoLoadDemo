@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/platform/api/v3/roles" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@check@timeline/%resources%/recorded-artifacts/e07bba6c-90f4-4855-9639-cd015d4e8b7b.zip"
     slaProfileEnabled="false" thinkTime="13451"
