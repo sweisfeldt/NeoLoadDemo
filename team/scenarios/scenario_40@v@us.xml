@@ -1,5 +1,5 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
-    slaProfileEnabled="false" uid="scenario1" virtualUsersStates="true">
+    slaProfileEnabled="false" uid="scenario_40VUs" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
     <population-policy name="Population1">
         <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
