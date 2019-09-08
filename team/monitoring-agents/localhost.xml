@@ -24,9 +24,6 @@
     <lg-networkiface description="Intel(R) Ethernet Connection I219-LM"
         enabled="false" isLoopBack="false" name="eth3">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="sweisfeldt-pc.intranet.neotys.com">
-            <ip value="192.168.1.168"/>
-        </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:e01b:5817:8d46:e36d%eth3">
             <ip value="fe80:0:0:0:e01b:5817:8d46:e36d%eth3"/>
         </lg-address>
@@ -43,6 +40,9 @@
     <lg-networkiface description="Intel(R) Dual Band Wireless-AC 8260"
         enabled="false" isLoopBack="false" name="wlan2">
         <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="sweisfeldt-pc.intranet.neotys.com">
+            <ip value="192.168.1.167"/>
+        </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:54a0:8a1e:4e7c:35d2%wlan2">
             <ip value="fe80:0:0:0:54a0:8a1e:4e7c:35d2%wlan2"/>
         </lg-address>
