@@ -1,6 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="CheckTimeline" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    slaProfileName="Transaction less than 0.6"
     uid="8c6cbaad-45c7-47e3-bd8c-8ea67d29a62a" weightsEnabled="false">
     <weighted-embedded-action uid="e07bba6c-90f4-4855-9639-cd015d4e8b7b"/>
     <weighted-embedded-action uid="1de66e8d-82fc-4e95-9863-1d6e7d0606ba"/>

@@ -1,6 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="CreateIncident" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    slaProfileName="Transaction less than 0.6"
     uid="447e8bba-cacf-4f83-aebc-e49f187616b2" weightsEnabled="false">
     <weighted-embedded-action uid="4b642b77-a21b-4634-84ad-c1666786adf7"/>
     <weighted-embedded-action uid="bb9eaa1e-a3ef-433e-87b6-58a5e333bab1"/>
