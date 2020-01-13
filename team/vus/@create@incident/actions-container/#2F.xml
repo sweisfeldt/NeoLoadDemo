@@ -6,7 +6,6 @@
     thinkTimeRangeStart="" uid="6c03a381-0334-4447-9ba4-cd598495ce89">
     <embedded-action>a84bf1e1-ee32-4801-b0c5-18889f99d419</embedded-action>
     <embedded-action>0d3f5cc4-d16d-4c9b-93b4-f78f9fd71232</embedded-action>
-    <embedded-action>a570f5c0-081d-4914-a63f-d890a6adc49b</embedded-action>
     <embedded-action>c25ebfa0-ef0e-4b83-b01b-bb73b16264ce</embedded-action>
     <embedded-action>478576f3-dce0-40d0-bdee-c04aad1d99d7</embedded-action>
     <embedded-action>e499f1cc-f72a-4e8d-be90-71c396a3e041</embedded-action>
@@ -83,56 +82,6 @@ Content-Type: text/css&#xd;
 X-Content-Encoding-Over-Network: gzip&#xd;
 Transfer-Encoding: chunked</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-</http-action>
-<http-action actionType="1" contentType="application/javascript"
-    eTag="&quot;16ee8d-5725cc426fb40-gzip&quot;"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    lastModified="Wed, 01 Aug 2018 10:00:37 GMT"
-    linkExtractorSeveralMatchOccurrence="1"
-    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/js/bundle.js" path="/js/bundle.js"
-    postCharset="" postType="2"
-    recordedArtifactZipFileName="team/vus/@create@incident/%resources%/recorded-artifacts/6c03a381-0334-4447-9ba4-cd598495ce89.zip"
-    recordedResponseCode="200" responseSize="1502861"
-    serverUid="52.90.15.176" slaProfileEnabled="false"
-    uid="a570f5c0-081d-4914-a63f-d890a6adc49b" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_38f23f9b-7702-4483-aef2-56eec3bb81f3.0</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_38f23f9b-7702-4483-aef2-56eec3bb81f3.txt</requestContentFileDescription>
-    <variable-extractor assertionOnNoMatch="true"
-        defaultValue="&lt;NOT FOUND>" displayMode="0"
-        endsWithSimple="&quot;" extractFromVarNameAdv=""
-        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
-        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
-        matchNumberSimple="1" name="secretToken"
-        refererUid="a570f5c0-081d-4914-a63f-d890a6adc49b"
-        regExp="UTH_CLIENT_SECRET:&quot;(.*?)&quot;" regExpAdv=""
-        setDefaultValue="true"
-        startsWithSimple="UTH_CLIENT_SECRET:&quot;" template="$1$"
-        templateAdv="$1$" uid="bbf1e643-c83d-4513-b228-95cfdcbc8b24" xpath="">
-        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
-    </variable-extractor>
-    <header name="Accept" value="*/*"/>
-    <header name="Accept-Encoding" value="gzip, deflate"/>
-    <header name="Accept-Language" value="en-US,en;q=0.5"/>
-    <header name="Connection" value="keep-alive"/>
-    <header name="Host" value="52.90.15.176"/>
-    <header name="Referer" value="http://52.90.15.176/"/>
-    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"/>
-    <responseHeaders>HTTP/1.1 200 OK&#xd;
-Date: Fri, 06 Sep 2019 01:28:48 GMT&#xd;
-Server: Apache/2.4.25 (Debian)&#xd;
-Last-Modified: Wed, 01 Aug 2018 10:00:37 GMT&#xd;
-ETag: "16ee8d-5725cc426fb40-gzip"&#xd;
-Accept-Ranges: bytes&#xd;
-Vary: Accept-Encoding&#xd;
-Keep-Alive: timeout=5, max=100&#xd;
-Connection: Keep-Alive&#xd;
-Transfer-Encoding: chunked&#xd;
-Content-Type: application/javascript&#xd;
-X-Content-Encoding-Over-Network: gzip</responseHeaders>
-    <record-html-infos extractorContent="" extractorOccurence="2"
-        extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="text/css"
     eTag="&quot;d73-5418708f1ad80-gzip&quot;"
