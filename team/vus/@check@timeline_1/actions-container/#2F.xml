@@ -21,7 +21,7 @@
     lastModified="Thu, 17 Nov 2016 22:45:59 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/" path="/" postType="2"
+    method="GET" name="/" path="/vbfff" postType="2"
     recordedArtifactZipFileName="team/vus/@check@timeline_1/%resources%/recorded-artifacts/0c907162-a8fc-47c1-891e-7404a856bbb2.zip"
     recordedResponseCode="200" responseSize="6786"
     serverUid="52.90.15.176" slaProfileEnabled="false"
