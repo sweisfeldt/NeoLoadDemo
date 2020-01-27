@@ -3,17 +3,6 @@
     supportWANEmulation="false"
     uid="98d307df-cb30-4be2-8f47-aad6b38a5776" version="7.1.0;build=20191120-35">
     <!--****** LG NETWORK INTERFACES ******-->
-    <lg-networkiface description="Software Loopback Interface 1"
-        enabled="false" isLoopBack="true" name="lo">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="127.0.0.1">
-            <ip value="127.0.0.1"/>
-        </lg-address>
-        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
-            <ip value="0:0:0:0:0:0:0:1"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
     <lg-networkiface
         description="Microsoft Wi-Fi Direct Virtual Adapter"
         enabled="false" isLoopBack="false" name="wlan1">
@@ -37,6 +26,17 @@
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="fe80:0:0:0:80bf:e93d:fb78:f991%eth6">
             <ip value="fe80:0:0:0:80bf:e93d:fb78:f991%eth6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
