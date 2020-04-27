@@ -1,0 +1,4 @@
+GET http://www.neotys.com/ HTTP/1.1
+User-Agent: Jetty/9.3.7.v20160115NeotysEdition.47
+Host: www.neotys.com
+

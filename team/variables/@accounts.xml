@@ -1,0 +1,4 @@
+<variable-file delimiters="," filename="C:/Users/sweisfeldt/Desktop/sampleLogins.txt" name="Accounts" offset="1" order="3" policy="3" range="1" uid="5404479a-fa43-40de-af77-4454c4cce1bd" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name=" Password" number="1"/>
+<column name="UserName" number="0"/>
+</variable-file>

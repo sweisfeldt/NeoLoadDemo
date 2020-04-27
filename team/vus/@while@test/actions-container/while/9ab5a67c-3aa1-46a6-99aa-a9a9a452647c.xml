@@ -1,0 +1,21 @@
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/" postType="1"
+    recordedResponseCode="301" recordedResponseTime="293"
+    responseSize="231" serverUid="host" slaProfileEnabled="false"
+    uid="9ab5a67c-3aa1-46a6-99aa-a9a9a452647c" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@while@test/%resources%/recorded-responses/res_7d53e93a-c6e0-4eb6-ae96-deccc20be3e7</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@while@test/%resources%/recorded-requests/req_cust_9ab5a67c-3aa1-46a6-99aa-a9a9a452647c.txt</requestContentFileDescription>
+    <responseHeaders>HTTP/1.1 301 Moved Permanently
+Date: Mon, 20 Apr 2020 00:50:23 GMT
+Server: Apache
+Location: https://www.neotys.com/
+Cache-Control: max-age=86400
+Expires: Tue, 21 Apr 2020 00:50:23 GMT
+Content-Length: 231
+Content-Type: text/html; charset=iso-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

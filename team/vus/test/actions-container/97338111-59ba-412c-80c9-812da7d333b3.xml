@@ -1,0 +1,34 @@
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/" postCharset="" postType="1"
+    recordedResponseCode="301" recordedResponseTime="304"
+    responseSize="231" serverUid="host" slaProfileEnabled="false"
+    uid="97338111-59ba-412c-80c9-812da7d333b3" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/test/%resources%/recorded-responses/res_cust_40ed0b37-bda1-4915-b67a-cbdc0ea37efc.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/test/%resources%/recorded-requests/req_cust_97338111-59ba-412c-80c9-812da7d333b3.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1"
+        endsWithSimple=" GMT" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="1" extractTypeAdv="1"
+        extractTypeSimple="1" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="SampleExtractionData"
+        refererUid="97338111-59ba-412c-80c9-812da7d333b3"
+        regExp="Date: (.*?) 2020 (.*?) GMT"
+        regExpAdv="Date: (.*?) 2020 (.*?) GMT" setDefaultValue="true"
+        startsWithSimple="Date: Fri, 17 Apr 2020 " template="$2$"
+        templateAdv="$2$" uid="6fd9f879-5f76-4a81-a6b6-aaf3dcc77fd5" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <responseHeaders>HTTP/1.1 301 Moved Permanently
+Date: Fri, 17 Apr 2020 01:04:16 GMT
+Server: Apache
+Location: https://www.neotys.com/
+Cache-Control: max-age=86400
+Expires: Sat, 18 Apr 2020 01:04:16 GMT
+Content-Length: 231
+Content-Type: text/html; charset=iso-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

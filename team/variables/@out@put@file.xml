@@ -1,0 +1,1 @@
+<variable-shared-queue consTimeout="5000" delimiter=";" name="OutPutFile" order="1" policy="1" queueSize="10000" range="1" swapActivated="true" swapDumpEnabled="true" swapFile="data.csv" swapLoadedEnabled="false" uid="9e1b549e-0bff-4860-9851-6be70c60af3b" whenOutOfValues="CYCLE_VALUES"/>

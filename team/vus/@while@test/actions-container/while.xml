@@ -1,0 +1,6 @@
+<while-action name="while" uid="5a6bc661-8716-4e5e-801b-c214e98c3e13">
+    <embedded-action>9ab5a67c-3aa1-46a6-99aa-a9a9a452647c</embedded-action>
+    <conditions match-type="1">
+        <condition operand1="${Index}" operand2="10" operator="LESSER_THAN"/>
+    </conditions>
+</while-action>

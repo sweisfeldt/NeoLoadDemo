@@ -1,0 +1,5 @@
+<variable-modifier-action definedMode="1" dest-variable-name=""
+    name="variable_modifier" shared-variable-name="OutPutFile"
+    sharedMode="3" src-variable-name="${outPutString}"
+    uid="d51a6fd1-c0af-4b43-8a4b-b5c5791cb42a"
+    variable-category="SHARED" variable-name=""/>
